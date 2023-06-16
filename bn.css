@@ -1,0 +1,57 @@
+button {
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.amazon {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 40px;
+    width: 130px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.7s ease;
+}
+
+.amazon1 {
+    background-color: orange;
+    color: black;
+    height: 40px;
+    width: 130px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.7s ease;
+}
+
+button:hover {
+    background-color: rgb(218, 184, 19);
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+p {
+    font-weight: bold;
+}
+
+.head {
+    font-size: 27px;
+}
+
+.real {
+    color: rgb(0, 118, 0);
+}
+
+.ama {
+    color: rgb(0, 113, 133);
+    transition: color 0.4s ease;
+}
+
+.ama:hover {
+    color: brown;
+}

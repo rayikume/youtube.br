@@ -1,10 +1,14 @@
-<style>
-    button {
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>rayikume</title>
+    <style>
+      button {
         font-family: Arial, Helvetica, sans-serif;
-        margin-right: 5px;
+        margin: 10px;
         cursor: pointer;
-    }
-    .yt {
+      }
+      .yt {
         background-color: rgb(200, 0, 0);
         color: white;
         border: none;
@@ -13,9 +17,18 @@
         border-radius: 5px;
         font-size: 13px;
         font-weight: bold;
-    }
+        transition: opacity 1s ease;
+      }
 
-    .tg {
+      .yt:hover {
+        opacity: 0.8;
+      }
+
+      .yt:active {
+        opacity: 0.4;
+      }
+
+      .tg {
         background-color: white;
         color: rgb(74, 74, 255);
         border-color: rgb(74, 74, 255);
@@ -28,14 +41,14 @@
         font-weight: bold;
         transition: background-color 0.3s ease;
         transition: color 0.3 ease;
-    }
+      }
 
-    .tg:hover {
+      .tg:hover {
         background-color: rgb(74, 74, 255);
         color: white;
-    }
+      }
 
-    .tw {
+      .tw {
         background-color: rgb(22, 158, 236);
         border: none;
         color: white;
@@ -44,9 +57,21 @@
         font-size: 15px;
         font-weight: bolder;
         border-radius: 22px;
-    }
-</style>
+        transition: box-shadow 0.2s ease-in;
+      }
 
-<button class="yt">SUBSCRIBE</button>
-<button class="tg">JOIN</button>
-<button class="tw">Tweet</button>
+      .tw:hover {
+        box-shadow: 3px 3px 0 black;
+      }
+
+      .tw:active {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="yt">SUBSCRIBE</button>
+    <button class="tg">JOIN</button>
+    <button class="tw">Tweet</button>
+  </body>
+</html>
