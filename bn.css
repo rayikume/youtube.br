@@ -6,29 +6,39 @@ button {
 .amazon {
     background-color: rgb(255, 216, 20);
     color: black;
-    height: 40px;
-    width: 130px;
+    padding: 10px 20px 10px 20px;
     font-weight: 700;
     border: none;
     cursor: pointer;
     border-radius: 25px;
     transition: background-color 0.7s ease;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .amazon1 {
     background-color: orange;
     color: black;
-    height: 40px;
-    width: 130px;
+    padding: 10px 20px 10px 20px;
     font-weight: 700;
     border: none;
     cursor: pointer;
     border-radius: 25px;
-    transition: background-color 0.7s ease;
+    transition: background-color 0.7s ease, padding 0.7s ease;
 }
 
-button:hover {
+.amazon1:hover {
     background-color: rgb(218, 184, 19);
+    padding: 20px 40px 20px 40px;
+}
+
+.amazon:hover {
+    background-color: rgb(218, 184, 19);
+}
+
+.amazon:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
 }
 
 button:active {
