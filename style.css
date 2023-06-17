@@ -1,7 +1,12 @@
 body {
     background-color: #0f0f0f;
     color: #f1f1f1;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
+}
+
+.searchbar {
+    font-size: 20px;
+    display: block;
 }
 
 .video-preview {
@@ -11,13 +16,57 @@ body {
     margin-right: 15px;
 }
 
-.thumbnail {
-    width: 100%;
-    border-radius: 5px;
+.thumbnail-container {
+    margin-bottom: 12px;
 }
 
-.searchbar {
-    font-size: 20px;
-    display: block;
+.thumbnail {
+    width: 100%;
+    border-radius: 10px;
 }
+
+.pfp-container {
+    width: 50px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+
+.pfp {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.subtitle-container {
+    width: 350px;
+    padding-left: 10px;
+}
+
+.subtitle-container, .pfp-container {
+    display: inline-block;
+}
+
+.video-title {
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.video-author {
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
 
