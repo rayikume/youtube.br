@@ -9,11 +9,43 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="video.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="general.css" />
     <title>YouTube.br</title>
   </head>
   <body>
-    <input class="searchbar" type="text" placeholder="Search" />
+    <!--Header-->
+    <div class="header">
+      <div class="leftsec"> 
+        <img class="ham" src="icons/hamburger.svg">
+        <img class="yt" src="icons/youtube.svg">
+      </div>
+      <div class="midsec">
+        <div class="searchtools">
+          <input class="searchbar" type="text" placeholder="Search" />
+          <button class="searchbutton">
+          <img src="icons/searchicon.svg">
+          </button>
+          </div>
+        <button class="micbutton">
+          <img src="icons/mic.svg">
+        </button>
+      </div>
+      <div class="rightsec">
+        <img class="share" src="icons/addvid.svg">
+        <img class="notif" src="icons/notif.svg">
+        <img class="minipfp" src="assets/tehehd.jpg">
+      </div>
+    </div>
+    <!--SideBar-->
+    <div class="sidebar">
+      <button><img src="icons/home.svg"></button>
+      <button><img src="icons/shorts.svg"></button>
+      <button><img src="icons/suppers.svg"></button>
+      <button><img src="icons/library.svg"></button>
+    </div>
+    <!--Video Tap-->
     <div class="video-grid">
       <!--1# video-->
       <div class="video-preview">
