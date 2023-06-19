@@ -8,6 +8,7 @@
     left: 0;
     right: 0;
     background-color: #0f0f0f;
+    z-index: 5;
 }
 
 .leftsec {
@@ -20,11 +21,13 @@
 .ham {
     height: 25px;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .yt {
     height: 21px;
-    margin-left: 20px;
+    margin-left: 27px;
+    cursor: pointer;
 }
 
 .midsec {
@@ -75,7 +78,7 @@
     border: none;
     border-top-right-radius: 19px;
     border-bottom-right-radius: 19px;
-    background-color: rgba(255, 255, 255, 0.08);
+    background-color: rgba(255, 255, 255, 0.07);
     cursor: pointer;
 }
 
@@ -127,7 +130,30 @@
     top: 60px;
     bottom: 0;
     left: 0;
-    width: 60px;
-    display: flex;
-    flex-direction: column;
+    width: 68px;
 }
+
+.entity {
+    background-color: #0f0f0f;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.entity:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.entity img {
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.entity div {
+    font-size: 10px;
+}
+
